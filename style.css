@@ -1,0 +1,301 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+.section1{
+    background-image: url("images/image-header.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 80vh ;
+    
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.header img{
+    margin-left: 10px;
+}
+.header span{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.header .contact{
+    background-color: white;
+    margin-right: 8px;
+    border-radius: 20px;
+    padding: 4px 15px;
+}
+.header .contact:hover{
+    background-color: tomato;
+    transition: 0.358s ease-in-out;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    flex: 1;
+}
+.main h1{
+    margin-bottom: 20px;
+}
+.section2{
+    display: flex;
+    height: 350px;
+}
+.left1, .right1{
+    flex: 1;
+    
+}
+.left1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;}
+   
+.textcontainer{
+    margin: 50px;
+    
+    justify-content: center;
+    text-align: center;
+}
+.textcontainer p{
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+.right1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section3{
+    display: flex;
+    height: 350px;
+    
+}
+.left2, .right2{
+    flex: 1;
+   
+}
+.left2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.right2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textbox3{
+    margin: 60px;
+    text-align: center;
+}
+.textbox3 p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section4{
+    display: flex;
+    height: 350px;
+   
+}
+.left4, .right4{
+    flex: 1;
+    
+}
+.left4{
+    display: flex; 
+    background-image: url("images/image-graphic-design.jpg");
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.textbox4{
+   
+    margin: 80px;
+    margin-top: 250px;
+}
+.textbox4 p{
+ margin-top: 20px;
+ text-align: center;
+ margin-bottom: 20px;
+}
+.right4{
+    display: flex;
+    align-items: center;
+    background-image: url("images/image-photography.jpg");
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+}
+.section5 h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.clients img{
+    border-radius: 50%;
+}
+.clients span{
+    margin: 20px;
+}
+.clients h1 {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.clients h3{
+    font-size: 13px;
+}
+.section6images{
+    display: flex;
+    height: 250px;
+}
+.section6images img{
+    width: 100%;
+    height: 100%;
+}
+.footer-section{
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 240px;
+}
+.footer-section img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footernav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+
+}
+#service{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.footerimg img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.menu .fa{
+    display: none;
+}
+.header .fa{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575.98px) { 
+
+    .header .fa{
+        display: block;
+        font-size: 25px;
+        padding-bottom: 5px;
+        padding-right: 5px;
+        cursor: pointer;
+        
+    }
+    .menu{
+        visibility: hidden;
+        position: absolute;
+        background-color: aliceblue;
+        height: 80vh;
+        width: 200px;
+        top: 0;
+        
+        
+    }
+
+    .menu span{
+        
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .menu .contact{
+        margin-left: 30px;
+        margin-right: 50px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .menu .fa{
+        font-size: 20px;
+        margin: 5px;
+    }
+    .section2{
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    .section3{
+        flex-direction: column;
+        height: auto;
+    }
+    .section4{
+        flex-direction: column;
+        height: auto;
+    }
+    .right4 h1, .left4 h1{
+        margin-top: 200px;
+    }
+    .section5 h1{
+        margin-bottom: 10px;
+    }
+    .clients{
+        flex-direction: column;
+    }
+    .clients h1{
+        margin-top: 10px;
+    }
+    .clients img{
+        margin-bottom: 10px;
+    }
+    .section6images{
+        flex-wrap: wrap; 
+        height: 300px;
+    }
+    .section6images img{
+        width: 50%;
+        height: 50%;
+        object-fit: fill;
+    }
+  
+
+ }
